@@ -20,7 +20,6 @@ public class SpringBootController {
         System.out.println("333"+student.getName());
         List<Object> list = new ArrayList<Object>();
         return  student.getName()+"helloWorld!";
-
     }
 
 }
