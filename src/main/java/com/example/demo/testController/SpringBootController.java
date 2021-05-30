@@ -17,9 +17,10 @@ public class SpringBootController {
 
     @RequestMapping("/ha")
     public String a(){
-        System.out.println("111111111111"+student.getName());
+        System.out.println("333"+student.getName());
         List<Object> list = new ArrayList<Object>();
         return  student.getName()+"helloWorld!";
+
     }
 
 }
